@@ -1,1 +1,8 @@
 git remote set-url origin git://new.url.here
+
+mau update file
+
+git add namafile.type
+git commit -m "descript"
+git remote set-url origin git://new.url.here
+git push origin master
