@@ -4,6 +4,6 @@ class Model_data extends CI_Model
 	function tampil()
 	{
 		$query = $this->db->query("Select * from barang");
-		return $query;
+		return $query->result_array();
 	}
 }
